@@ -1,137 +1,128 @@
 {
-    "user": [
-        {
-            "id": 1,
-            "fullName": "O'Shea Jackson",
-            "email": "2pacs@gmail.com",
-            "phoneNumber": 8036295982,
-            "isAdmin": true
-        },
-        {
-            "id": 2,
-            "fullName": "O'Shea Jackson",
-            "email": "2pacs@gmail.com",
-            "phoneNumber": 8036295982,
-            "isAdmin": false
-        }
-    ],
-    "task": [
-        {
-            "id": 1,
-            "userId": 3,
-            "dateComplete": "09-09-2022",
-            "completion": true,
-            "instructions": "Rinse dishes after scrapping food and debris.  Then load dishwasher.  Use new pouches under the sink.  Be sure to wash my lunch bowl and Yeti cup.",
-            "typeId": 2
-        }
-    ],
-    "taskType": [
-        {
-            "id": 1,
-            "name": "Wash Dishes",
-            "locationId": 3
-        },
-        {
-            "id": 2,
-            "name": "Clean Bedroom"
-        },
-        {
-            "id": 3,
-            "name": "Cut Grass"
-        },
-        {
-            "id": 4,
-            "name": "Wash Car"
-        },
-        {
-            "id": 5,
-            "name": "Make Bed"
-        },
-        {
-            "id": 6,
-            "name": "Clean Toilet"
-        },
-        {
-            "id": 7,
-            "name": "Deep Clean Rug"
-        },
-        {
-            "id": 8,
-            "name": "Cook Diner"
-        },
-        {
-            "id": 9,
-            "name": "Clean TV"
-        },
-        {
-            "id": 10,
-            "name": "Clean Living Room"
-        },
-        {
-            "id": 11,
-            "name": "Oil Change"
-        },
-        {
-            "id": 12,
-            "name": "Change Brakes"
-        },
-        {
-            "id": 13,
-            "name": "Clean Gutters"
-        },
-        {
-            "id": 14,
-            "name": "Take Out Trash"
-        },
-        {
-            "id": 15,
-            "name": "Take Trash to Road"
-        },
-        {
-            "id": 16,
-            "name": "Feed & Water Dog"
-        },
-        {
-            "id": 17,
-            "name": "Laundry"
-        },
-        {
-            "id": 18,
-            "name": "Plan Vacation"
-        },
-        {
-            "id": 19,
-            "name": "Wash Dishes"
-        },
-        {
-            "id": 20,
-            "name": "Wash Dishes"
-        },
-        {
-            "id": 21,
-            "name": "Wash Dishes"
-        }
-    ],
-    "location": [
-        {
-            "id": 1,
-            "location": "kitchen"
-        },
-        {
-            "id": 2,
-            "location": "Bedroom"
-        },
-        {
-            "id": 3,
-            "location": "Living Room"
-        },
-        {
-            "id": 4,
-            "location": "Outside"
-        },
-        {
-            "id": 5,
-            "location": "Restroom"
-        },
-    ]
+  "users": [
+    {
+      "id": 1,
+      "fullName": "O'Shea Jackson",
+      "email": "2pacs@gmail.com",
+      "phoneNumber": 8036295982,
+      "isAdmin": true
+    },
+    {
+      "id": 2,
+      "fullName": "April Jackson",
+      "email": "spring4eva@gmail.com",
+      "phoneNumber": 8036295982,
+      "isAdmin": false
+    },
+    {
+      "email": "jnmyers09@gmail.com",
+      "fullName": "Jeremy Myers",
+      "isAdmin": true,
+      "phoneNumber": "803-629-5982",
+      "id": 3
+    }
+  ],
+  "assignments": [
+    {
+      "id": 1,
+      "userId": 2,
+      "taskId": 1
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "userId": 3,
+      "completion": true,
+      "instructions": "Rinse dishes after scrapping food and debris.  Then load dishwasher.  Use new pouches under the sink.  Be sure to wash my lunch bowl and Yeti cup.",
+      "typeId": 1
+    }
+  ],
+  "taskTypes": [
+    {
+      "id": 1,
+      "name": "Clean Kitchen",
+      "locationId": 2
+    },
+    {
+      "id": 2,
+      "name": "Make Bed",
+      "locationId": 1
+    },
+    {
+      "id": 3,
+      "name": "Cut Grass",
+      "locationId": 5
+    },
+    {
+      "id": 4,
+      "name": "Wash Car",
+      "locationId": 7
+    },
+    {
+      "id": 5,
+      "name": "Mop Kitchen Floor",
+      "locationId": 2
+    },
+    {
+      "id": 6,
+      "name": "Clean Toilet",
+      "locationId": 4
+    },
+    {
+      "id": 7,
+      "name": "Deep Clean Rug",
+      "locationId": 3
+    },
+    {
+      "id": 8,
+      "name": "Cook",
+      "locationId": 2
+    },
+    {
+      "id": 9,
+      "name": "Clean TV",
+      "locationId": 3
+    },
+    {
+      "id": 10,
+      "name": "Vacuum Floor",
+      "locationId": 3
+    },
+    {
+      "id": 11,
+      "name": "Oil Change",
+      "locationId": 7
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "location": "Bedroom"
+    },
+    {
+      "id": 2,
+      "location": "Kitchen"
+    },
+    {
+      "id": 3,
+      "location": "Living Room"
+    },
+    {
+      "id": 4,
+      "location": "Restroom"
+    },
+    {
+      "id": 5,
+      "location": "Outside"
+    },
+    {
+      "id": 6,
+      "location": "Laundry Room"
+    },
+    {
+      "id": 7,
+      "location": "Automotive"
+    }
+  ]
 }
