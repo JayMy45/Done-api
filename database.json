@@ -20,6 +20,13 @@
       "isAdmin": true,
       "phoneNumber": "803-629-5982",
       "id": 3
+    },
+    {
+      "email": "jennydMy@yahoo.com",
+      "fullName": "Jennifer Myers",
+      "isAdmin": false,
+      "phoneNumber": "8037745499",
+      "id": 4
     }
   ],
   "assignments": [
@@ -33,12 +40,19 @@
     {
       "id": 1,
       "userId": 3,
-      "completion": true,
+      "completion": false,
       "instructions": "Rinse dishes after scrapping food and debris.  Then load dishwasher.  Use new pouches under the sink.  Be sure to wash my lunch bowl and Yeti cup.",
       "typeId": 1
+    },
+    {
+      "id": 2,
+      "userId": 4,
+      "completion": false,
+      "instructions": "Need to get brake clean before doing the job.  Make sure brakes all part match parts removed before install.  If you need help call Your Father!",
+      "typeId": 11
     }
   ],
-  "taskTypes": [
+  "types": [
     {
       "id": 1,
       "name": "Clean Kitchen",
