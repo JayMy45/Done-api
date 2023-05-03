@@ -41,35 +41,13 @@
       "isAdmin": false,
       "phoneNumber": "4235559898",
       "id": 7
-    },
-    {
-      "email": "jennydmy@yahoo.com",
-      "fullName": "Jennifer Myers",
-      "isAdmin": false,
-      "phoneNumber": "0000000000",
-      "id": 8
     }
   ],
   "assignments": [
     {
-      "userId": 7,
-      "taskId": 3,
-      "id": 3
-    },
-    {
-      "userId": 1,
-      "taskId": 8,
-      "id": 8
-    },
-    {
       "userId": 6,
       "taskId": 10,
       "id": 10
-    },
-    {
-      "userId": 6,
-      "taskId": 11,
-      "id": 11
     },
     {
       "userId": 2,
@@ -77,19 +55,9 @@
       "id": 12
     },
     {
-      "userId": 2,
-      "taskId": 13,
-      "id": 13
-    },
-    {
       "userId": 1,
       "taskId": 14,
       "id": 14
-    },
-    {
-      "userId": 3,
-      "taskId": 16,
-      "id": 16
     },
     {
       "userId": 6,
@@ -97,36 +65,12 @@
       "id": 17
     },
     {
-      "userId": 6,
-      "taskId": 18,
-      "id": 18
-    },
-    {
       "userId": 3,
       "taskId": 19,
       "id": 19
-    },
-    {
-      "userId": 8,
-      "taskId": 20,
-      "id": 20
     }
   ],
   "tasks": [
-    {
-      "userId": 7,
-      "completion": true,
-      "instructions": "Install new blinds for Living Room. ",
-      "typeId": 16,
-      "id": 3
-    },
-    {
-      "userId": 1,
-      "completion": false,
-      "instructions": "Need to create a new task type to  assign to Outdoor tasks...?",
-      "typeId": 20,
-      "id": 8
-    },
     {
       "userId": 6,
       "completion": false,
@@ -135,53 +79,25 @@
       "id": 10
     },
     {
-      "userId": 6,
-      "completion": false,
-      "instructions": "",
-      "typeId": 20,
-      "id": 11
-    },
-    {
       "userId": 2,
-      "completion": false,
+      "completion": true,
       "instructions": "Get Maxwell to clean the toilet for me...I don't wanna do it.",
       "typeId": 6,
       "id": 12
     },
     {
-      "userId": 2,
-      "completion": true,
-      "instructions": "Stack up dishes on Tuesday...Load dish washer.  ",
-      "typeId": 1,
-      "id": 13
-    },
-    {
       "userId": 1,
-      "completion": false,
+      "completion": true,
       "instructions": "Clean gutters...",
       "typeId": 18,
       "id": 14
     },
     {
-      "userId": 3,
-      "completion": false,
-      "instructions": "Make sure new rotors are the same size as the old one.  Update",
-      "typeId": 9,
-      "id": 16
-    },
-    {
       "userId": 6,
-      "completion": true,
+      "completion": false,
       "instructions": "get sauce for the meal",
       "typeId": 8,
       "id": 17
-    },
-    {
-      "userId": 6,
-      "completion": true,
-      "instructions": "Balance Check book",
-      "typeId": 19,
-      "id": 18
     },
     {
       "userId": 3,
@@ -189,21 +105,9 @@
       "instructions": "Get wood chips for the smoker",
       "typeId": 8,
       "id": 19
-    },
-    {
-      "userId": 8,
-      "completion": true,
-      "instructions": "Balance Checkbook",
-      "typeId": 19,
-      "id": 20
     }
   ],
   "types": [
-    {
-      "id": 1,
-      "name": "Clean Kitchen",
-      "locationId": 2
-    },
     {
       "id": 4,
       "name": "Wash Car",
@@ -240,11 +144,6 @@
       "locationId": 7
     },
     {
-      "name": "Indoor",
-      "locationId": 1,
-      "id": 16
-    },
-    {
       "name": "Cut The Grass",
       "locationId": 5,
       "id": 17
@@ -255,29 +154,19 @@
       "id": 18
     },
     {
-      "name": "Financial",
-      "locationId": 8,
-      "id": 19
-    },
-    {
       "name": "Miscellaneous",
       "locationId": 8,
       "id": 20
     },
     {
-      "name": "sharpen knives",
-      "locationId": 2,
-      "id": 21
-    },
-    {
-      "name": "Automotive",
-      "locationId": 5,
-      "id": 22
-    },
-    {
       "name": "Wind",
       "locationId": 5,
       "id": 23
+    },
+    {
+      "name": "Inside",
+      "locationId": 8,
+      "id": 24
     }
   ],
   "locations": [
