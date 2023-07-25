@@ -80,14 +80,14 @@
     },
     {
       "userId": 2,
-      "completion": true,
+      "completion": false,
       "instructions": "Get Maxwell to clean the toilet for me...I don't wanna do it.",
       "typeId": 6,
       "id": 12
     },
     {
       "userId": 1,
-      "completion": true,
+      "completion": false,
       "instructions": "Clean gutters...",
       "typeId": 18,
       "id": 14
@@ -167,6 +167,11 @@
       "name": "Inside",
       "locationId": 8,
       "id": 24
+    },
+    {
+      "name": "Car washer",
+      "locationId": 5,
+      "id": 25
     }
   ],
   "locations": [
